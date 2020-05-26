@@ -74,4 +74,5 @@
     "editor.letterSpacing": 0.5, // 文字の間隔を詰める default:0
     "editor.folding": true, // コードの折りたたみを許可
     "editor.renderWhitespace": "none", // 連続した空白文字を可視化
+    
 }
