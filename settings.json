@@ -1,0 +1,77 @@
+{
+    //エディタ設定
+    "editor.snippetSuggestions": "top",
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 1,//ウィンドウのズームレベルを調整 コマンド：⌘＋⬆︎＋-
+    "workbench.colorTheme": "Monokai",
+    "editor.fontFamily": "'Ricty Diminished', Monaco, Menlo, 'Courier New', monospace",
+    "html.format.contentUnformatted": "",
+    "html.format.endWithNewline": true,
+    // "editor.suggestFontSize": 15, // サジェストの文字サイズ
+    "editor.suggestLineHeight": 20, // サジェスト欄の行の高さ
+    "editor.tokenColorCustomizations": { // 配色テーマなどの親要素に入れると反映されない？
+    "comments": "#807272", // コメントの文字カラー  //"editor.tokenColorCustomizations"とセットで使用しないとエラー
+    },
+
+    //拡張機能設定
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "color-highlight.markerType": "underline",
+    "color-highlight.enable": true,
+
+      // ワークベンチ設定
+    "workbench.editor.showTabs": true, // タブを表示
+    "workbench.activityBar.visible": true, // アクティビティバー(左端)を表示に
+    "workbench.editor.tabSizing": "shrink", // タブが多い場合,文字を非表示にしてもタブ表示を優先する
+    "workbench.statusBar.visible": true, // ステータスバー(下端)を表示
+    "workbench.sideBar.location": "left", // アイコンの適用
+
+    // カラーテーマに上書きする個別の設定
+    "workbench.colorCustomizations": { // 配色テーマごとのカラー設定
+
+      "[Monokai]": { // [Monokai]の場合のカスタムカラー設定
+
+        "statusBar.background": "#000000", // ステータスバー背景カラー
+        "statusBar.noFolderBackground": "#000000",
+        "statusBar.foreground": "#ffffff", // ステータスバー前景カラー
+        "statusBar.noFolderForeground": "#ffffff",
+        "statusBar.border": "#ffffff", // ステータスバーの境界線
+        "sideBar.background": "#000000", // サイドバーの背景カラー
+        "sideBar.foreground": "#bcbcbc", // サイドバーの前景カラー
+        "sideBar.border": "#ffffff", // サイドバーの境界線
+        "activityBar.background": "#000000", // アクティビティバーの背景カラー
+        "activityBar.foreground": "#ffffff", // アクティビティバーの前景カラー
+        "activityBar.border": "#ffffff", // アクティビティバーの境界線
+        "editor.background": "#0c0c0c", // エディタ背景カラー
+        "editor.lineHighlightBackground": "#4040419a", // 選択している行の強調カラー
+        "editor.selectionBackground": "#5d135f", // 選択領域の強調カラー
+        "editor.selectionHighlightBackground": "#334236", // 選択範囲のハイライトカラー（背景カラー）
+        "editorError.border": "#ff0000a8", // エラー部分の下線
+        "editorLineNumber.foreground": "#2668b3", //エディターの行番号のカラー
+        "editorLineNumber.activeForeground": "#ffffff",
+        "scrollbarSlider.background": "#0077ff3d", // スクロールバーのカラー
+        "scrollbarSlider.hoverBackground": "#0077ffcc", // 移動中のスクロールバーのカラー
+        "tab.activeBorder": "#ffffff", // アクティブタブの下線
+        "tab.inactiveForeground": "#ffffff", // 非選択タブの文字カラー
+        "editorBracketMatch.background": "#ffff0077",// 対応する括弧の背景カラー
+        "editorSuggestWidget.selectedBackground": "#0077ff83", // サジェスト欄,選択中項目の背景カラー
+        "scrollbar.shadow": "#0c76f062",
+        "editorLink.activeForeground": "#5656e0"
+      },
+    },
+
+    // 補完候補の自動表示
+
+    "editor.formatOnType": true, // コード整形
+    "editor.formatOnPaste": true, // コード整形
+    "editor.renderIndentGuides": true,
+    "workbench.iconTheme": "file-icons", // インデントのガイドラインを表示
+    "editor.fontSize": 12, // 文字サイズ
+    "editor.cursorBlinking": "smooth", // カーソルの表示形式
+    // "editor.cursorWidth": 5, // カーソル幅
+    "editor.emptySelectionClipboard": true, // 選択範囲無しでのコピーを許可
+    "editor.letterSpacing": 0.5, // 文字の間隔を詰める default:0
+    "editor.folding": true, // コードの折りたたみを許可
+    "editor.renderWhitespace": "none", // 連続した空白文字を可視化
+}
